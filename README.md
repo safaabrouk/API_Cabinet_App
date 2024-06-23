@@ -2,17 +2,19 @@
 
 Si vous clonez ce projet vous devez suivre les étapes suivantes pour assurer le bonne fontionnement :
 
-1. creer dans ce dossier un environnement virtuel par :
+### 1. creer dans ce dossier un environnement virtuel par :
+
 python -m venv NomEnvironnement
 
-2. Installer les outils suivant :
-pip install django
+### 2. Installer les outils suivant :
 
-pip install djangorestframework
+- pip install django
+- pip install djangorestframework
+- pip install mysqlclient
+- pip install coreapi
+- pip install django-cors-headers
+- pip install djangorestframework_simplejwt
 
-pip install coreapi
+### 3. Create MySql Database:
 
-pip install django-cors-headers
-
-pip install djangorestframework_simplejwt
-
+Date base should have as name cabinet-app.
