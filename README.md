@@ -18,3 +18,19 @@ python -m venv NomEnvironnement
 ### 3. Create MySql Database:
 
 Date base should have as name cabinet-app.
+
+### 4. Run application
+
+For the first time we need create admin profil before runing the application with this commands :
+
+```properties
+ python manage.py makemigrations
+ python manage.py migrate
+ python manage.py createsuperuser
+```
+
+For run project
+
+```properties
+python manage.py runserver
+```
